@@ -54,7 +54,7 @@ public class DTOrdering {
         this.dir = dir;
     }
 
-    private enum Value {
+    public enum Value {
         asc,
         desc
     }
