@@ -15,13 +15,14 @@
 
     <groupId>com.offbytwo.datatables</groupId>
     <artifactId>datatables-models</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:git@github.com:cosmin/datatables-backend-java.git</connection>
         <developerConnection>scm:git:git@github.com:cosmin/datatables-backend-java.git</developerConnection>
         <url>https://github.com/cosmin/datatables-backend-java</url>
-    </scm>
+      <tag>HEAD</tag>
+  </scm>
 
     <licenses>
         <license>
@@ -79,7 +80,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.4</version>
+                        <version>1.6</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -89,6 +90,9 @@
                                 </goals>
                             </execution>
                         </executions>
+                        <configuration>
+                          <useAgent>true</useAgent>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
