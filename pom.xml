@@ -17,12 +17,6 @@
     <artifactId>datatables-models</artifactId>
     <version>0.1.1-SNAPSHOT</version>
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
-
     <scm>
         <connection>scm:git:git@github.com:cosmin/datatables-backend-java.git</connection>
         <developerConnection>scm:git:git@github.com:cosmin/datatables-backend-java.git</developerConnection>
@@ -100,5 +94,16 @@
             </build>
         </profile>
     </profiles>
+
+    <distributionManagement>
+      <snapshotRepository>
+        <id>ossrh</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      </snapshotRepository>
+      <repository>
+        <id>ossrh</id>
+        <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      </repository>
+    </distributionManagement>
 
 </project>
