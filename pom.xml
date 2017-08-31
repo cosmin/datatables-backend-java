@@ -15,7 +15,7 @@
 
     <groupId>com.offbytwo.datatables</groupId>
     <artifactId>datatables-models</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
