@@ -19,7 +19,7 @@
 
     <groupId>com.offbytwo.datatables</groupId>
     <artifactId>datatables-models</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:git@github.com:cosmin/datatables-backend-java.git</connection>
